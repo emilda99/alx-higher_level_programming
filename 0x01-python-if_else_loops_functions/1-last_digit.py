@@ -14,3 +14,4 @@ elif(lastDigit == 0):
 else:
     print(first + "{} is {}".format(number, lastDigit) + last)
     
+    
