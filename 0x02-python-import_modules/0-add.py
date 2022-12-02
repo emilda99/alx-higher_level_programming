@@ -1,7 +1,11 @@
 #!/usr/bin/python3
-if __name__ == "__main__":
-    from add_0 import add
-    a = 1
-    b = 2
-    print("{:d} + {:d} = {:d}".format(a, b, add(a, b))
+import random
+number = random.randint(-10, 10)
+if number == 0:
+    print('{0} is zero'.format(number))
+elif number < 0:
+    print('{0} is negative'.format(number))
+elif number > 0:
+    print('{0} is positive'.format(number))
+    
           
