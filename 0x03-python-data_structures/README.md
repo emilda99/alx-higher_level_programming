@@ -1,0 +1,1 @@
+hello,this project is focused on data structures i.e lists and tuples.
