@@ -1,0 +1,1 @@
+hello,in this project we take a look into sets and dictionaries.We will also compare them to lists and tuples and when to use them.
