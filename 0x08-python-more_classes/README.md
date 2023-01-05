@@ -1,0 +1,1 @@
+hello,this project is about more classes and objects.The goal of this project is to know more about the difference between a class and an object or instance.
