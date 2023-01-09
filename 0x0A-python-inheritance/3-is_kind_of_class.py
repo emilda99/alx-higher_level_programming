@@ -1,19 +1,13 @@
 #!/usr/bin/python3
-"""
-Module for is_same_class method
-"""
-
-
-def is_same_class(obj, a_class):
-    """Method for comparing object classes
+def is_kind_of_class(obj, a_class):
+    """
+    Checks if `obj` is the same class or inherit from `a_class`
     Args:
-        obj (unknown): object whose type is to be checked.
-        a_class (str): class criteria to validate.
-    Return:
-        True if obj isinstance of a_class/ class that inherits from it.
-        otherwise False
+        obj (any): The object to compare
+        a_class (any): The class to compare with the object
+    Returns:
+        `True` if the object is an instance or inherit from the
+        specified class; otherwise `False`
     """
 
-    if issubclass(type(obj), a_class) or isinstance(obj, a_class):
-        return True
-    return False
+    return isinstance(obj, a_class)
